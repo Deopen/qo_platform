@@ -1,0 +1,112 @@
+/*
+
+Written By Omid Yaghoubi (DeOpen)
+DeOpenMail@gmail.com
++98935-822-23-55
+
+*/
+
+
+.user_tbl {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	
+	position:relative;
+	box-sizing:border-box;
+	overflow: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+input[type=text],input[type=email] {
+	width: 100%;
+}
+
+table.home_tbl {
+
+	table-layout: auto;
+	align-items: stretch;
+	border: 2px solid;
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+
+	border-color: hsla(180, 55%, 10%,0.2);
+}
+
+
+aside {
+	border-top-right-radius: 7px; 
+	border-top-left-radius: 7px;
+	text-align: center;
+	background-color:hsla(175,50%,40%,0.25);
+	margin: 0;
+}
+
+.persian_question{
+	/*border:1px solid black;*/
+    width: 100%;
+	direction: rtl;
+	border-radius: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial;
+    font-size: 13pt;
+	background-color: rgba(200,200,200,0.5);
+	/*text-align: right;*/
+}
+
+.question_containter{
+	border: 1px solid;
+	overflow-x: Auto;
+	border-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,100,20,0.3);
+	margin: 2%;
+	border-radius: 3px;
+	padding: 3%;
+	/*word-break: break-all;*/
+}
+
+.option_container{
+	margin-top:3px;
+	margin-bottom: 6px;
+	word-break: break-all;
+}
+
+.persian_option{
+	
+	padding: 5px;
+	border-radius: 2px;
+	text-align: right;
+	direction: rtl;
+    font-family: Arial;
+    font-size: 12pt;
+    
+	word-break: break-all;
+}
+
+
+th,td{
+	text-align: center;
+	padding: 1pt;
+	border: 1px solid;
+	border-color: hsla(180, 55%, 10%,0.2);
+}
+td.breakableTd{
+	word-break: break-all;
+}
+
+tr:nth-child(even) {
+    background-color: hsla(210, 75%, 30%,0.2);
+}
+
+
+tr:nth-child(odd) {
+    background-color: hsla(130, 75%, 30%,0.2);
+}
+
+th{
+    background-color: rgb(180,190,180);
+    
+}
